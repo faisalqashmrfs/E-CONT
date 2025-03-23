@@ -217,7 +217,7 @@ export default function Form() {
               <p>- في حال إخلالي بأي من الالتزامات المشار إليها أعلاه فإنه يحق للطرف الأول أن يتخذ قرار الفصل من التدريب وكافة الإجراءات القانونية السارية في الجمهورية العربية السورية أو في أي دولة يوجد فيها الطرف الأول.</p>
             </div>
             <div className='sm-foter'>
-            {!send && <button onClick={handleFileUpload}>إرسال</button>}
+             <button onClick={handleFileUpload}>إرسال</button>
               <p>.أوافق على وثيقة الشروط والأحكام وموافقتي وكتابة اسمي الكامل يُعتبر توقيع على العقد معكم والتزامي بشروط التدريب</p>
               <label className="checkbox-container">
                 <input type="checkbox" checked={IsChecked} onChange={handleCheckboxChange} />
